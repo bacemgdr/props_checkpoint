@@ -16,12 +16,12 @@ const Player = ({name,team,nationality,jerseyNumber,age,image}) => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>  
           <Card.Text>
-          <p>{age}</p> 
-          <p>{team}</p> 
-          <p>{nationality}</p>
-          <p>{jerseyNumber}</p>
+          <strong> Age:</strong> {age} <br/> 
+          <strong >Team : </strong> {team} <br/>
+          <strong >Nationality : </strong> {nationality} <br/>
+          <strong >Jersey Number :  </strong> {jerseyNumber} <br/>
+      
           </Card.Text>
-
          
         </Card.Body>
       
